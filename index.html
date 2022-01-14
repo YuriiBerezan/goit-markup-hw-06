@@ -446,6 +446,32 @@
         <svg data-modal-close class="modal_close_btn" width="18" height="18">
           <use href="images/svg/icons.svg#icon-close"></use>
         </svg>
+
+        <form class="input-container">
+          <h3 class="modal-text">Оставьте свои данные, мы вам перезвоним</h3>
+          <label class="label-modal" for="modal-name"> Имя</label>
+          <input class="input-modal" type="modal-name" name="modal-name" id="modal-name" />
+          <label class="label-modal" for="modal-telephone"> Телефон </label>
+          <input
+            class="input-modal"
+            type="modal-telephone"
+            name="modal-telephone"
+            id="modal-telephone"
+          />
+          <label class="label-modal" for="modal-email"> Почта</label>
+          <input class="input-modal" type="modal-email" name="modal-email" id="modal-email" />
+          <label class="label-modal" for="modal-feedback">Коментарий</label>
+          <textarea
+            class="modal-feedback"
+            name="modal-feedback"
+            id="modal-feedback"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <div class="modal-btn-center">
+            <button class="modal-submit btn" type="submit">Отправить</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
