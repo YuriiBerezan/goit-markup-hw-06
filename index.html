@@ -453,36 +453,39 @@
         <form class="input-container">
           <h3 class="modal-text">Оставьте свои данные, мы вам перезвоним</h3>
 
-          <label class="label-modal" for="modal-name"> Имя</label>
-          <div class="svg-name">
-            <input class="input-modal" type="text" name="modal-name" id="modal-name" />
+          <label class="svg-name">
+            <input class="input-modal" type="text" name="modal-name" />
             <svg class="svg-name-item" width="12" height="12">
               <use href="images/svg/icons.svg#icon-name"></use>
             </svg>
-          </div>
-          <label class="label-modal" for="modal-telephone"> Телефон </label>
-          <div class="svg-name">
+            <span class="label-modal"> Имя </span>
+          </label>
+          <label class="svg-name">
             <input class="input-modal" type="tel" name="modal-telephone" id="modal-telephone" />
             <svg class="svg-name-item" width="12" height="12">
               <use href="images/svg/icons.svg#icon-tel"></use>
             </svg>
-          </div>
-          <label class="label-modal" for="modal-email"> Почта</label>
-          <div class="svg-name">
+            <span class="label-modal">Телефон</span>
+          </label>
+
+          <label class="svg-name">
             <input class="input-modal" type="email" name="modal-email" id="modal-email" />
             <svg class="svg-name-item" width="12" height="12">
               <use href="images/svg/icons.svg#icon-email"></use>
             </svg>
-          </div>
-          <label class="label-modal" for="modal-feedback">Коментарий</label>
-          <textarea
-            class="modal-feedback"
-            name="modal-feedback"
-            id="modal-feedback"
-            cols="30"
-            rows="10"
-            placeholder="Введите текст"
-          ></textarea>
+            <span class="label-modal">Почта</span>
+          </label>
+
+          <label class="svg-name">
+            <textarea
+              class="modal-feedback"
+              name="modal-feedback"
+              cols="30"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
+            <span class="label-modal">Коментарий</span>
+          </label>
         </form>
         <div class="modal-label-checkbox-svg">
           <div class="input-svg">
