@@ -443,6 +443,9 @@
     <!-- MODAL -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <svg class="modal-ellipse" width="30" height="30">
+          <use href="images/svg/icons.svg#icon-Ellipse"></use>
+        </svg>
         <svg data-modal-close class="modal_close_btn" width="18" height="18">
           <use href="images/svg/icons.svg#icon-close"></use>
         </svg>
@@ -480,22 +483,27 @@
             rows="10"
             placeholder="Введите текст"
           ></textarea>
-          <div class="modal-label-checkbox-svg">
-            <div class="input-svg">
-              <input class="modal-checkbox" type="checkbox" name="modal-checkbox" />
-              <svg class="checkbox-svg" width="11" height="8">
-                <use href="images/svg/icons.svg#icon-checkbox"></use>
-              </svg>
-            </div>
-            <label class="label-checkbox text-modal" for="modal-checkbox">
-              Соглашаюсь с рассылкой и принимаю
-              <a href="" class="modal-contract text-modal">Условия договора </a>
-            </label>
-          </div>
-          <div class="modal-btn-center">
-            <button class="modal-submit btn" type="submit">Отправить</button>
-          </div>
         </form>
+        <div class="modal-label-checkbox-svg">
+          <div class="input-svg">
+            <input
+              class="modal-checkbox"
+              type="checkbox"
+              name="modal-checkbox"
+              id="modal-checkbox"
+            />
+            <svg class="checkbox-svg" width="11" height="8">
+              <use href="images/svg/icons.svg#icon-checkbox"></use>
+            </svg>
+          </div>
+          <label class="label-checkbox text-modal" for="modal-checkbox">
+            Соглашаюсь с рассылкой и принимаю
+            <a href="" class="modal-contract text-modal">Условия договора </a>
+          </label>
+        </div>
+        <div class="modal-btn-center">
+          <button class="modal-submit btn" type="submit">Отправить</button>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
